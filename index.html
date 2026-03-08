@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rafael Monterrosa | Senior BI & Analytics Engineer</title>
+  <meta name="description" content="Senior BI & Analytics Engineer: Microsoft Fabric, Power BI, Azure SQL, Python, CX Analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Rafael Monterrosa</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">Menu</button>
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#contact" class="btn btn--small">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+
+        <!-- PHOTO -->
+        <div class="hero__photoWrap">
+          <img
+            class="hero__photo"
+            src="profile.jpeg"
+            alt="Photo of Rafael Monterrosa"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- COPY -->
+        <div class="hero__copy">
+          <div class="badge">Senior BI & Analytics Engineer • Microsoft Fabric • CX Analytics</div>
+          <h1>
+            I architect
+            <span class="accent">enterprise data pipelines</span>
+            and turn 200M+ row datasets into
+            <span class="accent">executive intelligence</span>.
+          </h1>
+          <p class="lead">
+            9+ years designing Medallion Lakehouses, semantic models, and AI-driven analytics for global operations.
+            Microsoft Fabric, Power BI (DAX), Azure SQL, Python.
+            Currently leading CX Analytics strategy at Ria Money Transfer.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="assets/Rafael_Monterrosa_BI_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+
+          <div class="hero__links">
+            <a href="https://www.linkedin.com/in/rafael-monterrosa-63191b95" target="_blank" rel="noopener">LinkedIn</a>
+            <span class="dot">•</span>
+            <a href="https://github.com/rafaelmonterrosa899" target="_blank" rel="noopener">GitHub</a>
+            <span class="dot">•</span>
+            <a href="#contact">Email</a>
+          </div>
+        </div>
+
+        <!-- SIDE CARD -->
+        <aside class="hero__card">
+          <h2 class="h3">Quick highlights</h2>
+          <ul class="list">
+            <li><strong>Fabric:</strong> Medallion Architecture, Pipelines, Dataflows Gen2</li>
+            <li><strong>Power BI:</strong> Advanced DAX, Star Schema, OLAP, Semantic Models</li>
+            <li><strong>Scale:</strong> 200M+ rows, ETL automation, 60% reporting reduction</li>
+            <li><strong>Python:</strong> Pandas, API integration, automated transcription pipelines</li>
+          </ul>
+
+          <div class="hero__mini">
+            <div class="mini">
+              <div class="mini__kpi" id="kpiYears">9+</div>
+              <div class="mini__label">Years experience</div>
+            </div>
+            <div class="mini">
+              <div class="mini__kpi">200M+</div>
+              <div class="mini__label">Rows processed</div>
+            </div>
+            <div class="mini">
+              <div class="mini__kpi">60%</div>
+              <div class="mini__label">Manual effort reduced</div>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projects</h2>
+          <p>Case-study style. Replace links/screenshots with yours.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <div class="card__top">
+              <h3>Global CX Analytics Dashboard</h3>
+              <span class="pill">Power BI • SQL</span>
+            </div>
+            <p>
+              Executive dashboard for contact center KPIs (FCR, AHT, Volume, Queue performance) with a star schema and optimized DAX.
+            </p>
+            <ul class="bullets">
+              <li>Modeled facts/dimensions and standardized KPI definitions.</li>
+              <li>Improved report performance with measure optimization and aggregations.</li>
+              <li>Delivered actionable insights for operations leadership.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <h3>Microsoft Fabric Lakehouse (Bronze→Gold)</h3>
+              <span class="pill">Fabric • Notebooks</span>
+            </div>
+            <p>
+              Medallion architecture pipeline with reusable transformations and curated gold tables for BI consumption.
+            </p>
+            <ul class="bullets">
+              <li>Built ingestion patterns and quality checks.</li>
+              <li>Created gold layer tables for business reporting.</li>
+              <li>Documented lineage, refresh logic, and best practices.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <h3>AI-Driven Telephony Analytics Pipeline</h3>
+              <span class="pill">Python • Azure • Fabric</span>
+            </div>
+            <p>
+              Automated pipeline integrating Cisco call recordings with transcription and sentiment analysis for CX performance tracking.
+            </p>
+            <ul class="bullets">
+              <li>Integrated voice recordings with automated transcription workflows.</li>
+              <li>Built QA scoring models and agent performance KPIs.</li>
+              <li>Delivered real-time insights to operations leadership.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__top">
+              <h3>Python ETL: API → Clean → Insights</h3>
+              <span class="pill">Python • Pandas</span>
+            </div>
+            <p>
+              Automated pipeline that pulls data from an API, transforms it, and produces a clean dataset + insight summary.
+            </p>
+            <ul class="bullets">
+              <li>Robust error handling and logging.</li>
+              <li>Reusable functions for validation and transformations.</li>
+              <li>Exported outputs to CSV/Excel for stakeholders.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p>Grouped the way recruiters scan.</p>
+        </div>
+
+        <div class="grid skills">
+          <div class="panel">
+            <h3>Analytics & BI</h3>
+            <div class="chips">
+              <span class="chip">Power BI</span><span class="chip">DAX</span><span class="chip">Data Modeling</span>
+              <span class="chip">KPI Design</span><span class="chip">Dashboarding</span><span class="chip">RLS</span>
+              <span class="chip">Performance Tuning</span><span class="chip">OLAP</span><span class="chip">Semantic Models</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>SQL & Data</h3>
+            <div class="chips">
+              <span class="chip">SQL Server</span><span class="chip">T-SQL</span><span class="chip">Window Functions</span>
+              <span class="chip">Query Optimization</span><span class="chip">Star Schema</span><span class="chip">ETL</span>
+              <span class="chip">Azure SQL</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Microsoft Fabric</h3>
+            <div class="chips">
+              <span class="chip">Lakehouse</span><span class="chip">Warehouse</span><span class="chip">Notebooks</span>
+              <span class="chip">Pipelines</span><span class="chip">Medallion (B/S/G)</span>
+              <span class="chip">Dataflows Gen2</span><span class="chip">Incremental Load</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Python & Automation</h3>
+            <div class="chips">
+              <span class="chip">Pandas</span><span class="chip">APIs</span><span class="chip">Data Cleaning</span>
+              <span class="chip">ETL Automation</span><span class="chip">Logging</span>
+              <span class="chip">Transcription Pipelines</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>CX / Operations</h3>
+            <div class="chips">
+              <span class="chip">FCR</span><span class="chip">AHT</span><span class="chip">CSAT</span>
+              <span class="chip">Queue Analytics</span><span class="chip">Root Cause</span>
+              <span class="chip">QA Scoring</span><span class="chip">Agent Performance</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h3>Tools</h3>
+            <div class="chips">
+              <span class="chip">Git/GitHub</span><span class="chip">Excel</span><span class="chip">Docker</span>
+              <span class="chip">SharePoint</span><span class="chip">VS Code</span><span class="chip">SSAS / Tabular</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__meta">
+              <div class="timeline__role">Global Lead BI – Customer Experience (Ria Money Transfer)</div>
+              <div class="timeline__date">Apr 2024 — Present • El Salvador</div>
+            </div>
+            <ul class="bullets">
+              <li>Spearhead enterprise-wide CX analytics strategy across global operations.</li>
+              <li>Architected Medallion-based Lakehouse pipelines in Microsoft Fabric handling 200M+ rows.</li>
+              <li>Built AI-driven telephony analytics pipelines integrating Cisco recordings and automated transcription.</li>
+              <li>Developed executive-level OLAP semantic models in Power BI driving FCR, QA scoring, and agent performance KPIs.</li>
+              <li>Reduced manual reporting effort by over 60% through ETL automation.</li>
+            </ul>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__meta">
+              <div class="timeline__role">Senior Data Analyst (Ria Money Transfer)</div>
+              <div class="timeline__date">Aug 2022 — Apr 2024 • El Salvador</div>
+            </div>
+            <ul class="bullets">
+              <li>Designed scalable BI solutions using Power BI and Azure SQL.</li>
+              <li>Built data models supporting global operational tracking.</li>
+              <li>Eliminated manual Excel reporting through dashboard automation.</li>
+              <li>Improved decision-making visibility via KPI standardization.</li>
+            </ul>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__meta">
+              <div class="timeline__role">Freelance BI & Data Analytics Consultant</div>
+              <div class="timeline__date">Aug 2023 — Aug 2024</div>
+            </div>
+            <ul class="bullets">
+              <li>Developed interactive dashboards for US-based clients.</li>
+              <li>Designed SQL-based models and automated ETL workflows.</li>
+              <li>Delivered trend analysis and performance optimization insights.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certs" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Certifications</h2>
+        </div>
+
+        <div class="grid cards">
+          <article class="card card--small">
+            <h3>Microsoft DP-700: Fabric Data Engineer Associate</h3>
+            <p>Udemy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>Microsoft Fabric – Complete Course</h3>
+            <p>Udemy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>Microsoft Fabric: End-to-End Data Engineering Project</h3>
+            <p>Udemy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>PL-300: Microsoft Power BI Data Analyst</h3>
+            <p>Udemy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>The Complete SQL Bootcamp</h3>
+            <p>Udemy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>Data Warehouse – The Ultimate Guide</h3>
+            <p>Udemy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>Analyze Data with SQL Skill Path</h3>
+            <p>Codecademy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>Learn Intermediate SQL</h3>
+            <p>Codecademy</p>
+          </article>
+
+          <article class="card card--small">
+            <h3>Python for Data Science and Machine Learning Bootcamp</h3>
+            <p>Udemy</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p>Fast ways to reach me.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__card">
+            <h3>Let's talk</h3>
+            <p class="muted">Email me and I'll respond as soon as possible.</p>
+
+            <div class="contact__actions">
+              <a class="btn" href="mailto:rafaelmonterrosa899@gmail.com">Email</a>
+              <button class="btn btn--ghost" id="copyEmail" data-email="rafaelmonterrosa899@gmail.com">Copy Email</button>
+            </div>
+
+            <p class="toast" id="toast" role="status" aria-live="polite"></p>
+
+            <div class="contact__links">
+              <a href="https://www.linkedin.com/in/rafael-monterrosa-63191b95" target="_blank" rel="noopener">LinkedIn</a>
+              <span class="dot">•</span>
+              <a href="https://github.com/rafaelmonterrosa899" target="_blank" rel="noopener">GitHub</a>
+              <span class="dot">•</span>
+              <a href="tel:+50376703446"> Phone: +503 7670 3446</a>
+            </div>
+
+            <script>
+              document.getElementById('copyEmail').addEventListener('click', function() {
+                navigator.clipboard.writeText(this.dataset.email);
+                const toast = document.getElementById('toast');
+                toast.textContent = '✅ ¡Copiado!';
+                setTimeout(() => toast.textContent = '', 2000);
+              });
+            </script>
+          </div>
+
+          <div class="contact__note">
+            <h3>What I'm open to</h3>
+            <ul class="bullets">
+              <li>Remote Senior BI / Data Engineer roles</li>
+              <li>Microsoft Fabric & Power BI heavy work</li>
+              <li>CX Analytics & contact center intelligence</li>
+              <li>Modern data stack projects</li>
+              <li>Data Analytics Coach</li>
+              <li>Data Analyst Consulting</li>
+              <li>Data Analyst Lead</li>
+            </ul>
+
+            <div class="separator"></div>
+            <p class="muted small">
+              Available for full-time remote positions and freelance projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© <span id="year"></span> Rafael Monterrosa</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
